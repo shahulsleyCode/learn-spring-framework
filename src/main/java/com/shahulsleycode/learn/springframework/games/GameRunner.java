@@ -2,9 +2,11 @@ package com.shahulsleycode.learn.springframework.games;
 
 public class GameRunner {
     
-    private MarioGame game;
-
-    public GameRunner(MarioGame game){
+    //private MarioGame game;
+    private SuperContraGame game;
+    
+    //public GameRunner(MarioGame game){
+    public GameRunner(SuperContraGame game){
         this.game = game;
     }
 
