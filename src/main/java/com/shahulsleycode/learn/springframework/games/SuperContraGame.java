@@ -1,6 +1,6 @@
 package com.shahulsleycode.learn.springframework.games;
 
-public class SuperContraGame {
+public class SuperContraGame implements GameConsole{
     public void up() {
         System.out.println(this. getClass().getSimpleName() + " - UP");
     }

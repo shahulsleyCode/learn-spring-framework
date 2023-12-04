@@ -1,6 +1,6 @@
 package com.shahulsleycode.learn.springframework.games;
 
-public class PacManGame {
+public class PacManGame implements GameConsole{
     public void up() {
         System.out.println(this. getClass().getSimpleName() + " - UP");
     }
