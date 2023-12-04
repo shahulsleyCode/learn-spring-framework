@@ -1,5 +1,8 @@
 package com.shahulsleycode.learn.springframework.games;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class MarioGame implements GameConsole{
     public void up() {
         System.out.println(this. getClass().getSimpleName() + " - UP");
